@@ -8,7 +8,7 @@ import readline
 import subprocess
 
 
-# Update script
+# Update line script
 try:
     ver = "1.0.0"
 
@@ -20,7 +20,7 @@ try:
     for ver5 in ver4:
         ver6 = ver5.text
 
-        if ver6 != ver:
+        if ver6 != ver:  # prompt for the update
             v1 = input(
                 u" \n Hello ! Version Update "
                 + "\u001b[31m"
@@ -29,13 +29,16 @@ try:
                 + " is now available, \n Do you wish to do an update? (Y/N) \u001b[37;1m|\u001b[0m Default is (\u001b[32mY\u001b[0m): "
             )
 
+
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "yes":
                 print(" Thank You ha.")
+                subprocess.call(['./update.sh']) # this will run update script
 
             elif v1 == "":
                 print(" Thank You ha.")
+                subprocess.call(['./update.sh'])  # this will run update script
 
-                # Start ng Alt2
+                # Start ng Alt2 if no update is required
 
             else:
 
