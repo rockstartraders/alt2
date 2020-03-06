@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-import subprocess
-import requests
 import bs4
+import requests
+import os
+import subprocess
+
 
 try:
-
     ver = "1.0.0"
 
     ver1 = "https://github.com/rockstartraders/alt2/blob/master/version.txt"
@@ -15,6 +16,8 @@ try:
 
     for ver5 in ver4:
         ver6 = ver5.text
+
+
 
         v1 = input(
             u" \n Hello ! Version Update "
@@ -27,23 +30,28 @@ try:
         if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
             print(" Thank You ha.")
             subprocess.call(['./update.sh'])  # this will run update script
+            exit()
 
         elif v1 == "":
             print(" Thank You ha.")
             subprocess.call(['./update.sh'])  # this will run update script
+            exit()
 
                     # Start ng Alt2 if no update is required
 
-        elif v1 == v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
-            subprocess.call(['./alt2.py'])
+        elif v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
+            os.system('./alt2.py')
+            exit()
 
-        else:
-            print('try again')
+    else:
+        print('\n Invalid Entry, Please Try Again..\n')
+        exit()
+
 
 
 except KeyboardInterrupt:
     print("\n\n\u001b[31mError\u001b[0m: KeyboardInterrupt \n")
 
-
-
-
+except Exception as e:
+   print(u' \n\n\u001b[31mError\u001b[0m: Unexpected Error,Possible Issue with Connectivity.\n       '
+          u'Please Try Again later...\n')
