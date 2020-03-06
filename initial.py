@@ -17,8 +17,11 @@ try:
     for ver5 in ver4:
         ver6 = ver5.text
 
-        if ver6 != ver:  # prompt for the update
+        if ver6 == ver:  # prompt for the update
+            os.system('./alt2.py')
+            exit()
 
+        else: 
 
             v1 = input(
                 u" \n Hello ! Version Update "
@@ -44,9 +47,9 @@ try:
                 os.system('./alt2.py')
                 exit()
 
-        else:
-            print('\n Invalid Entry, Please Try Again..\n')
-            exit()
+            else:
+                print('\n Invalid Entry, Please Try Again..\n')
+                exit()
 
 
 
