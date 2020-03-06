@@ -35,7 +35,7 @@ else
    sleep 5
    echo "Installing requirements.txt"
    sleep 5
-   #pip3 install -r requirements.txt &> /dev/null
+   pip3 install -r requirements.txt &> /dev/null
    echo -e "\e[5m\e[31mDone installing requirements.txt\e[25m\e[39m"
    sleep 2
    echo "Creating a new directory"
@@ -67,6 +67,8 @@ else
    echo -e "All Done .."
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
    echo
+   exit 1
+
 
 fi
 
