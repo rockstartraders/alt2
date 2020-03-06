@@ -66,7 +66,11 @@ else
    echo -e "\e[5m\e[31mDone creating alt2 command.\e[25m\e[39m"
    echo -e "All Done .."
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
+   echo -e "Feel free to delete/purge this folder if alt2 command is already working."
+   sleep 2
+   echo -e "Uninstaller script is located via this path: \e[5m\e[31m/alt2\e[25m\e[39m"
    echo
+   echo "Thank You"
    exit 1
 
 
