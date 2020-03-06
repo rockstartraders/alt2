@@ -5,6 +5,8 @@ echo "Nice working"
 echo "Thank You"
 
 ./alt2.py
+exit
+
 
 
 

@@ -21,7 +21,7 @@ try:
             os.system('./alt2.py')
             exit()
 
-        else: 
+        else:
 
             v1 = input(
                 u" \n Hello ! Version Update "
