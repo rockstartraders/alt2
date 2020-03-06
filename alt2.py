@@ -96,7 +96,7 @@ try:
 
 
 except KeyboardInterrupt:
-    print("\n\n\u001b[31mError\u001b[0m: KeyboardInterrupt \n")
+    print("\n\n\u001b[31mError\u001b[0m: Keyboard Interrupt. \n")
 
 except Exception as e:
    print(u' \n\n\u001b[31mError\u001b[0m: Unexpected Error,Possible Issue with Connectivity.\n       '
