@@ -15,6 +15,10 @@ curl -o pyvenv.cfg https://raw.githubusercontent.com/rockstartraders/alt2/master
 curl -o requirements.txt https://raw.githubusercontent.com/rockstartraders/alt2/master/requirements.txt 2>/alt2
 curl -o version.txt https://raw.githubusercontent.com/rockstartraders/alt2/master/version.txt 2>/alt2
 curl -o update.sh https://raw.githubusercontent.com/rockstartraders/alt2/master/update.sh 2>/alt2
+chmod 777 update.sh
+curl -o subver.py https://raw.githubusercontent.com/rockstartraders/alt2/master/subver.py 2>/alt2
+chmod 777 update.sh
 sleep 3
 echo "Update 3 of 3 Done"
+python3 ./subver.py
 

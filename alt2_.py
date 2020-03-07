@@ -19,7 +19,7 @@ try:
 
         if ver6 == ver:  # prompt for the update
             subprocess.call(['alt2.py'])
-            exit()
+
 
         else:
 
@@ -33,7 +33,7 @@ try:
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
                 subprocess.call(['update.sh'])  # this will run update script
-                exit()
+
 
             #elif v1 == "":
              #   subprocess.call(['update.sh'])  # this will run update script
@@ -43,11 +43,11 @@ try:
 
             elif v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
                 subprocess.call(['alt2.py'])
-                exit()
+
 
             else:
                 print('\n Invalid Entry, Please Try Again..\n')
-                exit()
+
 
 
 
