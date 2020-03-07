@@ -5,5 +5,6 @@ import subprocess
 
 
 print("Finish Thanks")
-subprocess.call(['initial.py'])
+#subprocess.call(['initial.py'])
+os.system('alt2.py')
 
