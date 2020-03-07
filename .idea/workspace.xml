@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd452ff0-a7e9-4b86-beaa-ff6abc230160" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alt2_.py" beforeDir="false" afterPath="$PROJECT_DIR$/alt2_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grab.sh" beforeDir="false" afterPath="$PROJECT_DIR$/grab.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

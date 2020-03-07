@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo -e "Hello \e[5m\e[32m$(whoami)\e[39m\e[25m I need to run update for some packages & scripts that is why \e[31mSudo\e[39m is needed"
 echo ""
 echo "Configuring Files Please Wait ..."
 sleep 2

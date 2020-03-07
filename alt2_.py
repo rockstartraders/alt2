@@ -32,7 +32,7 @@ try:
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
-                subprocess.call(['update.sh'])  # this will run update script
+                subprocess.call(['sudo','grab.sh'])  # this will run update script
 
 
             #elif v1 == "":
