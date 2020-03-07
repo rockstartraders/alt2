@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-echo -e "Hello \e[5m\e[32m$(whoami)\e[39m\e[25m I need to run update some packages & scripts that is why \e[31mSudo\e[39m is needed:"
+
 echo ""
-#cd ~ &&
-#cd /alt2
 echo "Configuring Files Please Wait ..."
 sleep 2
 echo "Update 1 of 3 "
