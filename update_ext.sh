@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo
-echo -e "\e[5m\e[32m$(whoami)\e[39m\e[25m Finalizing Update and \e[31mSudo\e[39m is needed:"
+#echo -e "\e[5m\e[32m$(whoami)\e[39m\e[25m Finalizing Update and \e[31mSudo\e[39m is needed:"
 sudo bash << EOF
   cd ~
   cd /alt2
