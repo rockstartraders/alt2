@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-if (( $EUID != 0 )); then
 echo -e "Hello \e[5m\e[32m$(whoami)\e[39m\e[25m I need to run update some packages & scripts that is why \e[31mSudo\e[39m is needed:"
-sudo su
 echo ""
 #cd ~ &&
 #cd /alt2
@@ -22,5 +20,3 @@ curl -o version.txt https://raw.githubusercontent.com/rockstartraders/alt2/maste
 sleep 3
 echo "Update 3 of 3 Done .. Cleaning up.. "
 sh ./update_ext.sh
-
-fi
