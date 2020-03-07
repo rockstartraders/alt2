@@ -18,7 +18,7 @@ try:
         ver6 = ver5.text
 
         if ver6 == ver:  # prompt for the update
-            os.system('./alt2.py')
+            os.system('alt2.py')
             exit()
 
         else:
@@ -32,17 +32,17 @@ try:
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
-                subprocess.call(['./update.sh'])  # this will run update script
+                subprocess.call(['update.sh'])  # this will run update script
                 exit()
 
             elif v1 == "":
-                subprocess.call(['./update.sh'])  # this will run update script
+                subprocess.call(['update.sh'])  # this will run update script
                 exit()
 
                         # Start ng Alt2 if no update is required
 
             elif v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
-                os.system('./alt2.py')
+                os.system('alt2.py')
                 exit()
 
             else:

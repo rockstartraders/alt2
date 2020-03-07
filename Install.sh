@@ -58,12 +58,17 @@ else
    cp -p requirements.txt /alt2
    cp -p update.sh /alt2
    cp -p version.txt /alt2
-   cp -p initial.py /bin/alt2   #move and rename
+   #cp -p initial.py /bin/alt2   #move and rename
    echo -e "\e[5m\e[31mDone Copying all necessary files.\e[25m\e[39m"
    sleep 2
    #cd /bin
    #rm -rf initial.py
    echo "Creating alt2 command"
+   # alias
+   echo 'PATH=$PATH:/alt2/' >> ~/.bashrc 2> /dev/null
+   echo 'PATH=$PATH:/alt2/' >> ~/.zshrc 2> /dev/null
+   echo "alias alt2='initial.py'" >> ~/.bashrc 2> /dev/null
+   echo "alias alt2='initial.py'" >> ~/.zshrc 2> /dev/null
    sleep 3
    echo -e "\e[5m\e[31mDone creating alt2 command.\e[25m\e[39m"
    echo -e "All Done .."
