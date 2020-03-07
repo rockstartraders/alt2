@@ -7,7 +7,7 @@ import subprocess
 
 
 try:
-    ver = "1.0.7"
+    ver = "1.0.0"
 
     ver1 = "https://github.com/rockstartraders/alt2/blob/master/version.txt"
     ver2 = requests.get(ver1)
