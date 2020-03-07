@@ -57,6 +57,7 @@ else
    cp -p requirements.txt /alt2
    cp -p update.sh /alt2
    cp -p version.txt /alt2
+   cp -p grab.sh /alt2
    echo -e "\e[5m\e[31mDone Copying all necessary files.\e[25m\e[39m"
    sleep 2
    echo "Creating alt2 command"
