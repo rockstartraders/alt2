@@ -2,10 +2,12 @@
 
 import os
 import subprocess
+import svn.remote
+import svn.local
 
+x = os.getcwd()
 
-#print("Finish Thanks")
-#subprocess.call(['alt2_.py'])
+print(x)
 
-
-print("Hello World")
+r = svn.remote.RemoteClient('https://github.com/rockstartraders/net2shell/trunk/image')
+r.checkout(r,x)
