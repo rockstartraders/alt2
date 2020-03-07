@@ -19,8 +19,6 @@ sudo bash << EOF
   curl -o pyvenv.cfg https://raw.githubusercontent.com/rockstartraders/alt2/master/pyvenv.cfg 2>/dev/null
   curl -o requirements.txt https://raw.githubusercontent.com/rockstartraders/alt2/master/requirements.txt 2>/dev/null
   curl -o version.txt https://raw.githubusercontent.com/rockstartraders/alt2/master/version.txt 2>/dev/null
-
-  echo "Update 2 of 3 "
   sleep 3
   echo "Update 3 of 3 Done .. Cleaning up.. "
   sh ./update_ext.sh
@@ -28,9 +26,3 @@ sudo bash << EOF
 EOF
 
 
-#rm -rf /bin/alt2
-#cp -p initial.py /bin/alt2
-
-
-#Testing kung gagana
-#testing ulit
