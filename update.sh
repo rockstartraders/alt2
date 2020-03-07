@@ -5,7 +5,7 @@ echo -e "Hello \e[5m\e[32m$(whoami)\e[39m\e[25m I need to run update some packag
 sudo bash << EOF
   echo ""
   cd ~
-  cd /alt2
+  cd /alt2/
   echo "Configuring Files Please Wait ..."
   sleep 2
   echo "Update 1 of 3 "
