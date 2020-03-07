@@ -21,6 +21,7 @@ sudo bash << EOF
   curl -o version.txt https://raw.githubusercontent.com/rockstartraders/alt2/master/version.txt 2>/dev/null
 
   echo "Update 2 of 3 "
+  sleep 3
   echo "Update 3 of 3 Done .. Cleaning up.. "
   ./update_ext.sh
   exit 1
@@ -31,3 +32,6 @@ EOF
 
 #rm -rf /bin/alt2
 #cp -p initial.py /bin/alt2
+
+
+#Testing kung gagana

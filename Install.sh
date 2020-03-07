@@ -58,11 +58,8 @@ else
    cp -p requirements.txt /alt2
    cp -p update.sh /alt2
    cp -p version.txt /alt2
-   #cp -p initial.py /bin/alt2   #move and rename
    echo -e "\e[5m\e[31mDone Copying all necessary files.\e[25m\e[39m"
    sleep 2
-   #cd /bin
-   #rm -rf initial.py
    echo "Creating alt2 command"
    # alias
    echo 'PATH=$PATH:/alt2/' >> ~/.bashrc 2> /dev/null
@@ -71,13 +68,16 @@ else
    echo "alias alt2='initial.py'" >> ~/.zshrc 2> /dev/null
    sleep 3
    echo -e "\e[5m\e[31mDone creating alt2 command.\e[25m\e[39m"
+   sleep 2
+   source .zshrc 2> /dev/null
+   source .bashrc 2> /dev/null
    echo -e "All Done .."
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
    echo -e "Feel free to delete/purge this folder if alt2 command is already working."
    sleep 2
-   echo -e "Uninstaller script is located via this path: \e[5m\e[31m/alt2\e[25m\e[39m"
-   echo
-   echo "Thank You"
+   echo -e "To remove this completely please got to this Path:\e[5m\e[31m/alt2\e[25m\e[39m"
+   echo -e "Please Remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
+   echo -e "Thank You ==>  \e[5m\e[31mJAMES\e[25m\e[39m"
    exit 1
 
 fi
