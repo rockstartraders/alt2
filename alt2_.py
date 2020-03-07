@@ -32,11 +32,11 @@ try:
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
-                subprocess.call(['update.sh'])  # this will run update script
+                subprocess.call(['./update.sh'])  # this will run update script
                 exit()
 
             elif v1 == "":
-                subprocess.call(['update.sh'])  # this will run update script
+                subprocess.call(['./update.sh'])  # this will run update script
                 exit()
 
                         # Start ng Alt2 if no update is required
