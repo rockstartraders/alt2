@@ -32,12 +32,10 @@ try:
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
-                print(" Thank You ha.")
                 subprocess.call(['./update.sh'])  # this will run update script
                 exit()
 
             elif v1 == "":
-                print(" Thank You ha.")
                 subprocess.call(['./update.sh'])  # this will run update script
                 exit()
 

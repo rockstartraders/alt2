@@ -4,7 +4,9 @@
     <list default="true" id="cd452ff0-a7e9-4b86-beaa-ff6abc230160" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subver.py" beforeDir="false" afterPath="$PROJECT_DIR$/subver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_ext.sh" beforeDir="false" afterPath="$PROJECT_DIR$/update_ext.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
