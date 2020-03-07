@@ -18,7 +18,7 @@ try:
         ver6 = ver5.text
 
         if ver6 == ver:  # prompt for the update
-            os.system('alt2.py')
+            os.system('./alt2.py')
             exit()
 
         else:
