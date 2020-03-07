@@ -5,5 +5,5 @@ import subprocess
 
 
 print("Finish Thanks")
-subprocess.call(['alt2'], shell=True)
+subprocess.call(['initial.py'])
 
