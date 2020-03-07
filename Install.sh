@@ -5,7 +5,7 @@ if (( $EUID != 0 )); then
     echo "Hello, I may need to install some package required for this to run"
     echo "Please run this as root"
     echo
-    exit
+    exit 0
 else
    sleep 3
    echo
@@ -46,6 +46,8 @@ else
    echo "Copying all necessary files"
    sleep 5
    cp -p alt2.py /alt2
+   cp -p subver.py /alt2
+   cp -p update_ext.sh /alt2
    cp -aR bin /alt2
    cp -aR include /alt2
    cp -aR lib /alt2
@@ -72,7 +74,6 @@ else
    echo
    echo "Thank You"
    exit 1
-
 
 fi
 
