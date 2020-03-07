@@ -5,5 +5,5 @@ import subprocess
 
 
 print("Finish Thanks")
-os.system('alt2')
+subprocess.call('alt2')
 exit()

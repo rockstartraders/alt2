@@ -23,7 +23,7 @@ sudo bash << EOF
   echo "Update 2 of 3 "
   sleep 3
   echo "Update 3 of 3 Done .. Cleaning up.. "
-  ./update_ext.sh
+  sh ./update_ext.sh
   exit 1
 
 
@@ -35,3 +35,4 @@ EOF
 
 
 #Testing kung gagana
+#testing ulit
