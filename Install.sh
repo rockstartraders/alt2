@@ -47,7 +47,6 @@ else
    sleep 5
    cp -p alt2.py /alt2
    cp -p subver.py /alt2
-   cp -p update_ext.sh /alt2
    cp -aR bin /alt2
    cp -aR include /alt2
    cp -aR lib /alt2
