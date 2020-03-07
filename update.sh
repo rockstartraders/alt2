@@ -24,8 +24,6 @@ sudo bash << EOF
   sleep 3
   echo "Update 3 of 3 Done .. Cleaning up.. "
   sh ./update_ext.sh
-  exit 1
-
 
 EOF
 
