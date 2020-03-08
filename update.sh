@@ -11,7 +11,7 @@ function fetch() {
 
 
 function parser() {
-    sudo ./parser.sh
+    bash ./parser.sh
 }
 
 
