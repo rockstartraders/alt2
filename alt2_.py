@@ -28,7 +28,7 @@ try:
                 + "\u001b[31m"
                 + ver6
                 + "\u001b[0m"
-                + " is now available, If you wish to do an update please use the command \e[32mupdate-alt2\e[39m \n Do you wish to continue without update? (Y/N) \u001b[37;1m|\u001b[0m Default is (\u001b[32mY\u001b[0m): "
+                + " is now available, If you wish to do an update please go to the root directory of alt2 via \e[32/alt2\e[39m then search and run ./parser.sh with sudo priviledges.\n Do you wish to continue without update? (Y/N) \u001b[37;1m|\u001b[0m Default is (\u001b[32mY\u001b[0m): "
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
