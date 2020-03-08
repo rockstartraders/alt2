@@ -83,7 +83,7 @@ else
    echo -e "All Done .."
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
    echo
-   echo -e "If \e[32malt2\e[39m command didnt work the first time please open a new terminal session instead:"
+   echo -e "If \e[32malt2\e[39m command failed to work the first time please open a new terminal session instead:"
    echo -e "Feel free to delete/purge this folder if alt2 command is already working."
    sleep 2
    echo -e "To remove this completely please go to this Path:\e[5m\e[31m/alt2\e[25m\e[39m and do rm -rf"
