@@ -4,6 +4,7 @@ function changeD() {
 
    cd ~
    cd /alt2/
+   sudo chmod 777 parser.sh
 }
 
 function fetch() {
