@@ -61,6 +61,8 @@ else
    sleep 2
    echo "Creating alt2 command"
    # alias
+   echo "=========  THIS LINE IS FOR alt2 ===============" >> ~/.bashrc 2> /dev/null
+   echo "=========  THIS LINE IS FOR alt2 ===============" >> ~/.zshrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.bashrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.zshrc 2> /dev/null
    echo "alias alt2='alt2_.py'" >> ~/.bashrc 2> /dev/null
