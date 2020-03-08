@@ -47,7 +47,7 @@ else
    sleep 5
    cp -p alt2.py /alt2
    cp -aR bin /alt2
-   cp -aR include /alt2
+   #cp -aR include /alt2
    cp -aR lib /alt2
    cp -aR lib64 /alt2
    cp -p alt2_.py /alt2
@@ -62,8 +62,8 @@ else
    sleep 2
    echo "Creating alt2 command"
    # alias
-   echo "#  THIS LINE IS FOR alt2 " >> ~/.bashrc 2> /dev/null
-   echo "# THIS LINE IS FOR alt2 " >> ~/.zshrc 2> /dev/null
+   echo "#THIS LINE IS FOR alt2 " >> ~/.bashrc 2> /dev/null
+   echo "#THIS LINE IS FOR alt2 " >> ~/.zshrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.bashrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.zshrc 2> /dev/null
    echo "alias alt2='alt2_.py'" >> ~/.bashrc 2> /dev/null
