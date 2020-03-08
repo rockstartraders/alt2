@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+function callalt() {
+  ./alt2.py
+
+}
+
 if (( $EUID != 0 )); then
     echo
     echo "Hello, I may need to install some package required for this to run"
@@ -81,7 +86,8 @@ else
    echo -e "Also please remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
    echo -e "Thank You ==>  \e[5m\e[31mJAMES\e[25m\e[39m"
    echo
-   exit
+   callalt
+
 
 fi
 
