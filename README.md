@@ -40,7 +40,7 @@ alt2
 <br>
 <br>
 
-3. After Install just run alt2.
+3. After Install just run alt2 and type the name of the application.
 
       <img src="img/run.gif" width="300%" height="200%" align="center">       
 
@@ -50,7 +50,7 @@ alt2
 
   4. If in case update is available.
 
-      #### `See image below`
+      #### `See image below:`
 
 <img src="img/update.gif" width="300%" height="200%" align="center">       
 
