@@ -19,6 +19,7 @@ function xfer1() {
     svn export --force https://github.com/rockstartraders/alt2/trunk/pyvenv.cfg > /dev/null
     svn export --force https://github.com/rockstartraders/alt2/trunk/requirements.txt > /dev/null
     svn export --force https://github.com/rockstartraders/alt2/trunk/version.txt > /dev/null
+    svn export --force https://github.com/rockstartraders/alt2/trunk/change_log.txt > /dev/null
     echo
 
 }
@@ -29,6 +30,12 @@ function xfer2() {
   svn export --force https://github.com/rockstartraders/alt2/trunk/update.sh > /dev/null && chmod 777 update.sh
   svn export --force https://github.com/rockstartraders/alt2/trunk/alt2.py > /dev/null && chmod 777 alt2.py
   svn export --force https://github.com/rockstartraders/alt2/trunk/alt2_.py > /dev/null && chmod 777 alt2_.py
+}
+
+function log() {
+    cat change_log.txt
+    echo
+
 }
 
 function callp() {
@@ -52,6 +59,8 @@ xfer2
 echo "Finish ..."
 echo "Thank You"
 echo
+echo "Change Log:"
+log
 callp
 
 

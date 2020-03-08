@@ -76,10 +76,10 @@ else
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
    echo -e "Feel free to delete/purge this folder if alt2 command is already working."
    sleep 2
-   echo -e "To remove this completely please got to this Path:\e[5m\e[31m/alt2\e[25m\e[39m"
+   echo -e "To remove this completely please go to this Path:\e[5m\e[31m/alt2\e[25m\e[39m"
    echo -e "Please Remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
    echo -e "Thank You ==>  \e[5m\e[31mJAMES\e[25m\e[39m"
-   exit 1
+   exit 
 
 fi
 
