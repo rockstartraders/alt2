@@ -1,1 +1,2 @@
 Updated some string and functions for update.
+Fix Version Control 
