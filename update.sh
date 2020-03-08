@@ -6,7 +6,7 @@ function changeD() {
 }
 
 function fetch() {
-    sudo svn export --force https://github.com/rockstartraders/alt2/trunk/parser.sh > /dev/null && chmod 777 update.sh
+    sudo svn export --force https://github.com/rockstartraders/alt2/trunk/parser.sh > /dev/null && chmod 777 parser.sh
 }
 
 
