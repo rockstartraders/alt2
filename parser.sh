@@ -27,7 +27,7 @@ function xfer1() {
 
 
 function xfer2() {
-  svn export --force https://github.com/rockstartraders/alt2/trunk/update.sh > /dev/null && chmod 777 update.sh
+  #svn export --force https://github.com/rockstartraders/alt2/trunk/update.sh > /dev/null && chmod 777 update.sh
   svn export --force https://github.com/rockstartraders/alt2/trunk/alt2.py > /dev/null && chmod 777 alt2.py
   svn export --force https://github.com/rockstartraders/alt2/trunk/alt2_.py > /dev/null && chmod 777 alt2_.py
 }
