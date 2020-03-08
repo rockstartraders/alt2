@@ -22,8 +22,7 @@ else
    sleep 2
    echo "curl (if you dont have it yet)"
    sleep 2
-   echo
-   echo "and subversion (For version control and update)"
+   echo -e "\e[31msubversion\e[39m (For version control and update)"
    echo
    echo "Thank You ! I will take care of the rest ..."
    sleep 5
@@ -57,13 +56,14 @@ else
    cp -p requirements.txt /alt2
    cp -p update.sh /alt2
    cp -p version.txt /alt2
-   cp -p grab.sh /alt2
+   cp -p parser.sh /alt2
+   cp -p change_log.txt /alt2
    echo -e "\e[5m\e[31mDone Copying all necessary files.\e[25m\e[39m"
    sleep 2
    echo "Creating alt2 command"
    # alias
-   echo "=========  THIS LINE IS FOR alt2 ===============" >> ~/.bashrc 2> /dev/null
-   echo "=========  THIS LINE IS FOR alt2 ===============" >> ~/.zshrc 2> /dev/null
+   echo "#  THIS LINE IS FOR alt2 " >> ~/.bashrc 2> /dev/null
+   echo "# THIS LINE IS FOR alt2 " >> ~/.zshrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.bashrc 2> /dev/null
    echo 'PATH=$PATH:/alt2/' >> ~/.zshrc 2> /dev/null
    echo "alias alt2='alt2_.py'" >> ~/.bashrc 2> /dev/null
@@ -77,9 +77,10 @@ else
    echo -e "Just type \e[5m\e[32malt2\e[25m\e[39m to start."
    echo -e "Feel free to delete/purge this folder if alt2 command is already working."
    sleep 2
-   echo -e "To remove this completely please go to this Path:\e[5m\e[31m/alt2\e[25m\e[39m"
-   echo -e "Please Remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
+   echo -e "To remove this completely please go to this Path:\e[5m\e[31m/alt2\e[25m\e[39m and do rm -rf"
+   echo -e "Also please remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
    echo -e "Thank You ==>  \e[5m\e[31mJAMES\e[25m\e[39m"
+   echo
    exit
 
 fi
