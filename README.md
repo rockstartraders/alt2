@@ -58,7 +58,7 @@ alt2
 
 <br>
 
-5. Just update it by going to the root path.  
+5. Just update it by going to the root path and run the parser.sh with sudo priviledge.  
       #### `Path; /alt2`
        If permission error occurs you know the drill.
 
