@@ -75,6 +75,8 @@ else
    echo 'PATH=$PATH:/alt2/' >> ~/.zshrc 2> /dev/null
    echo "alias alt2='alt2_.py'" >> ~/.bashrc 2> /dev/null
    echo "alias alt2='alt2_.py'" >> ~/.zshrc 2> /dev/null
+   echo "alias update-alt2='sudo ./parser.sh'" >> ~/.bashrc 2> /dev/null
+   echo "alias update-alt2='sudo ./parser.sh'" >>  ~/.zshrc 2> /dev/null
    sleep 3
    echo -e "\e[5m\e[31mDone creating alt2 command.\e[25m\e[39m"
    sleep 2
