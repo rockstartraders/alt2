@@ -23,6 +23,7 @@ else
    echo "curl (if you dont have it yet)"
    sleep 2
    echo
+   echo "and subversion (For version control and update)"
    echo
    echo "Thank You ! I will take care of the rest ..."
    sleep 5
@@ -79,7 +80,7 @@ else
    echo -e "To remove this completely please go to this Path:\e[5m\e[31m/alt2\e[25m\e[39m"
    echo -e "Please Remove the Alias and PATH listed via ~/.bashrc or ~/.zshrc"
    echo -e "Thank You ==>  \e[5m\e[31mJAMES\e[25m\e[39m"
-   exit 
+   exit
 
 fi
 
