@@ -1,2 +1,3 @@
 Updated some string and functions for update.
-Fix Version Control 
+Fix Version Control
+Remove 1 file that is no longer needed.
