@@ -62,7 +62,7 @@ Then just remove the unnecessary files such as:
 
       #### `cd to alt2 directory and Run the ./Install script.`
 
-       #### `But before doing that please make sure to installPython3, PIP3, subversion and curl.`
+       #### `But before doing that please make sure to install Python3, PIP3, subversion and curl.`
           
 
    <img src="img/install2.gif" width="300%" height="200%" align="center">       
