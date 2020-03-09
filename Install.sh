@@ -61,7 +61,7 @@ else
    cp -p pyvenv.cfg /alt2
    cp -p README.md /alt2
    cp -p requirements.txt /alt2
-   cp -p update.sh /alt2
+   #cp -p update.sh /alt2  = no longer needed
    cp -p version.txt /alt2
    cp -p parser.sh /alt2
    cp -p change_log.txt /alt2

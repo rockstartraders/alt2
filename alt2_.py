@@ -28,7 +28,7 @@ try:
                 + "\u001b[31m"
                 + ver6
                 + "\u001b[0m"
-                + " is now available, If you wish to do an update,\n Please go to the root directory of alt2 via this Path: /alt2 then search and run ./parser.sh with sudo priviledges.\n Do you wish to continue without update? (Y/N) \u001b[37;1m|\u001b[0m Default is (\u001b[32mY\u001b[0m): "
+                + " is now available, If you wish to do an update,\n Please go to the root directory of alt2 via this Path: /alt2 then search and run ./parser.sh with sudo privileges.\n Do you wish to continue without update? (Y/N) \u001b[37;1m|\u001b[0m Default is (\u001b[32mY\u001b[0m): "
             )
 
             if v1 == "Y" or v1 == "y" or v1 == "YES" or v1 == "Yes" or v1 == "yes":
@@ -41,7 +41,9 @@ try:
 
                         # Start ng Alt2 if no update is required
 
-            #elif v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
+            elif v1 == "N" or v1 == "n" or v1 == "NO" or v1 == "No" or v1 == "no":
+               print("\n\n Thank You ..")
+               exit()
                # subprocess.call(['alt2.py'])
 
 
