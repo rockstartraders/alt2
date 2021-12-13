@@ -8,7 +8,7 @@ fake-useragent==0.1.11
 idna==2.8
 isort==4.3.21
 lazy-object-proxy==1.4.1
-lxml==4.3.4
+lxml==4.6.5
 mccabe==0.6.1
 pyfiglet==0.8.post1
 pylint==2.3.1
